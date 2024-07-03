@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(background-image.png);
+    background-size: cover;
+}
+
+.container {
+    background-image: url(hero-image.png);
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+}
+
+nav {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 200px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: Montserrat;
+}
+
+a:hover {
+    cursor: pointer;
+    color:  rgb(255, 22, 138);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input, a {
+    transition: 0.3s;
+}
+
+input {
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    border: 0;
+    background-color: rgb(255, 22, 138);
+    color: white;
+}
+
+input:hover {
+    cursor: pointer;
+    background-color:rgb(206, 16, 111) ;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.text {
+    width: 40%;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+p {
+    font-size: large;
+    word-spacing: 2px;
+    color: rgb(73, 73, 73);
+    font-family:  Montserrat;
+}
+
+.click {
+    display: flex;
+    gap: 20px;
+    font-family:  Montserrat;
+}
+
+#apply {
+    border: 1px solid rgb(255, 22, 138);
+    border-radius: 5px;
+    background:rgb(255, 22, 138);
+    padding: 8px;
+    color: white;
+}
+
+#apply:hover{
+    background:rgb(191, 16, 104);
+    cursor: pointer;
+}
+
+#loan {
+    border: 1px solid rgb(255, 22, 138);
+    border-radius: 5px;
+    padding: 8px;
+    color: rgb(255, 22, 138);
+    background: white;
+}
+
+#loan:hover {
+    background: rgb(253, 200, 227);
+    cursor: pointer;
+}
+
+#apply,#loan {
+    transition: 0.3s;
+}
+
+.car {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 4px 6px 4px;
+    border-radius: 40px;
+    gap: 20px;
+   background-color: white;
+   box-shadow: 2px 6px 6px 6px rgba(0,0,0,0.2);
+   position: absolute;
+   left: 45%;
+   right: 45%;
+   top: 70px;
+   font-family:  Montserrat;
+}
+
+.home {
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 4px 6px 4px;
+    border-radius: 40px;
+    gap: 20px;
+   background-color: white;
+   box-shadow: 2px 6px 6px 6px rgba(0,0,0,0.2);
+   position: absolute;
+   right: 6%;
+   top: 190px;
+   font-family:  Montserrat;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    align-content: center;
+    width: 220px;
+    font-family:  Montserrat;
+    font-size: large;
+}
+
+
